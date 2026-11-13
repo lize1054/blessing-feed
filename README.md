@@ -1,2 +1,8 @@
-# blessing-feed
-encrypted media feed
+# feed
+
+自动生成的产物仓库，内容均为加密数据（AES-256-GCM）。
+
+- `manifest.bin`：加密清单，含条目列表、标题、话题与状态
+- `items/*.bin`：加密视频，解密后为 MP4
+
+请勿手工修改。格式说明见主仓库 `docs/产物分发与手机端协议.md`。
